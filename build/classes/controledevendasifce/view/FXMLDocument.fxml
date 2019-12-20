@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="493.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controledevendasifce.controller.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Cadastros">
+                  <items>
+                    <MenuItem fx:id="menuItemCadastroClientes" mnemonicParsing="false" onAction="#handleNovaJanela" text="Clientes" />
+                        <MenuItem mnemonicParsing="false" text="Produtos" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Vendas">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Realizar Vendas" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Relatórios">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Vendas por Mês" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
